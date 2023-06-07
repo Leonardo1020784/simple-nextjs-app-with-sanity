@@ -1,0 +1,61 @@
+.core-product-detail {
+    padding: 34px 16px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .core-product-detail-content {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .core-product-detail-title {
+    margin-bottom: 24px;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  
+  .core-product-detail-description {
+    font-size: 16px;
+    color: #555;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  .core-product-detail-features {
+    max-width: 320px;
+    margin: 0 auto;
+    
+  }
+  
+  .core-product-detail-feature {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .core-product-detail-feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .core-product-detail-feature-icon {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .core-product-detail-feature-text {
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  

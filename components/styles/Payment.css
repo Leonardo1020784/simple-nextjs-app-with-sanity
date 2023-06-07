@@ -1,0 +1,127 @@
+.payment-container {
+  margin: 35px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.payment-container form {
+  display: grid;
+  gap: 10px;
+}
+
+.payment-container h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.payment-container input[type='text'],
+.payment-container input[type='email'] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.payment-container input[type='checkbox'] {
+  margin-right: 5px;
+  
+}
+
+.payment-container button[type='submit'] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;   
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-container button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+.payment-container label p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.payment-container span {
+  font-size: 16px;
+}
+
+.payment-container span:nth-child(2) {
+  font-weight: bold;
+}
+.method-container{
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 220px;
+}
+
+.resume-container {
+margin: 35px;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+max-width: 300px;
+max-height: 300px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.title-container {
+font-size: 24px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.image-container {
+height: 50px;
+width: 50px;
+}
+
+.name-container {
+font-size: 16px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.price-container {
+font-size: 16px;
+font-family: 'Orbitron', sans-serif;
+}
+
+.product-container {
+display: flex;
+}
+.total-container,
+.price-container,
+.shipping-container,
+.discount-container {
+font-size: 16px;
+font-family: 'Orbitron', sans-serif;
+width: 280px;
+display: flex;
+justify-content: space-between;
+}
+
+.quantity-container input {
+width: 50px; /* Adjust the width to your preference */
+}

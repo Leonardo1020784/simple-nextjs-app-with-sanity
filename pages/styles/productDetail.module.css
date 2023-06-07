@@ -1,0 +1,122 @@
+.product-container {
+    margin: 35px;
+    background-image: linear-gradient(to right, #DED6FD, #F8D0E6);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .buy-button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* Text color */
+    padding: 12px 104px; /* Padding around the button text */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    border-radius: 4px; /* Rounded corners */
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  .buy-button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  @media (min-width: 768px) {
+    .product-container {
+      max-width: 800px; /* Set a maximum width of 1000px for larger screens */
+      width: 100%; /* Ensure the container occupies the full width of the parent */
+      margin-left: auto; /* Center the container horizontally by pushing it to the left */
+      margin-right: auto; /* Center the container horizontally by pushing it to the right */
+    }
+  }
+
+.product-image-container{
+  max-width: 1000px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-image-core{
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 5px; /* Add a border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  
+    /* Stylish cyberpunk effects */
+    filter: brightness(120%);
+    border: 2px solid #0f8e97;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    filter: brightness(100%);
+    transform: scale(1.05);
+    border-color: #ff00ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  @media (min-width: 768px) {
+    .product-image {
+      max-width: 600px; /* Set a maximum width of 500px for larger screens */
+      width: 100%; /* Ensure the image occupies the full width of the container */
+    }
+  }
+  
+  
+
+  .product-price{
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  .product-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .product-details > p {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-title {
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  .checkout{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  

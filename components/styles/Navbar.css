@@ -1,0 +1,10 @@
+.navbar-container {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    max-width: 2xl;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
